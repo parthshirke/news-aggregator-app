@@ -1,2 +1,62 @@
-@import "./reset.css";
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 15px;
+}
 
+body {
+  background-color: #212021;
+}
+
+.site-title-container {
+  text-align: center;
+}
+
+.site-title-container .site-title {
+  border-style: ridge;
+  padding: 20px;
+  color: white;
+}
+
+.search-container {
+  text-align: center;
+}
+
+.search-container #search {
+  border: none;
+  background-color: #212021;
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+.news-containter #news-articles {
+  list-style-type: none;
+}
+
+.news-containter .article {
+  background-color: #393939;
+  height: 500px;
+  width: 250px;
+  overflow: hidden;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.news-containter .article-img {
+  height: 150px;
+}
+
+.news-containter .article-title {
+  font-size: 0.5px;
+}
+
+.news-containter .article-description {
+  font-size: 14px;
+}
+
+.news-containter .article-author {
+  font-size: 6px;
+}
+/*# sourceMappingURL=index.css.map */

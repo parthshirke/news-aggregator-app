@@ -22,6 +22,7 @@ module.exports = merge(common, {
       filename: 'bundle.css'
     })
   ],
+  
   module: {
     rules: [
       {
@@ -34,6 +35,7 @@ module.exports = merge(common, {
         use : [
           MiniCssExtractPlugin.loader,
           'css-loader',
+          'style-loader',
           'sass-loader'
         ]
       }
