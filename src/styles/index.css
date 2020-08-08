@@ -33,7 +33,7 @@ body {
   list-style-type: none;
 }
 
-.news-containter .article {
+.news-containter .article .art_body {
   background-color: #393939;
   height: 500px;
   width: 250px;
@@ -44,7 +44,7 @@ body {
           box-sizing: border-box;
 }
 
-.news-containter .article:hover {
+.news-containter .article .art_body:hover {
   margin: 25px;
   border: 3px solid blueviolet;
 }
