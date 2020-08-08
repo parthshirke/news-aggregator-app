@@ -29,8 +29,18 @@ body {
   border-bottom: 1px solid white;
 }
 
+.news-containter:hover {
+  margin: 25px;
+  border: 3px solid white;
+}
+
 .news-containter #news-articles {
   list-style-type: none;
+}
+
+.news-containter #news-articles:hover {
+  margin: 25px;
+  border: 3px solid white;
 }
 
 .news-containter .article .art_body {

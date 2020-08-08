@@ -34,11 +34,18 @@ body{
 
 .news-containter{
     // border: solid blueviolet;
+    &:hover{
+        margin:25px;
+        border: 3px solid white;
+    }
 
     #news-articles
     {
         list-style-type:none;
-
+        &:hover{
+            margin:25px;
+            border: 3px solid white;
+        }
        
     }
 
@@ -56,7 +63,7 @@ body{
             margin:25px;
             border: 3px solid blueviolet;
         }
-        
+
         }
     }
 
