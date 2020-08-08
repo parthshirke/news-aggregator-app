@@ -33,6 +33,19 @@ body {
   margin: 1 px;
 }
 
+.card-containter {
+  display: -ms-grid;
+  display: grid;
+  background: #414A4C;
+  border-radius: 10px;
+  width: 300px;
+  height: 400px;
+}
+
+.card-containter:hover {
+  background: black;
+}
+
 .news-containter #news-articles {
   list-style-type: none;
 }

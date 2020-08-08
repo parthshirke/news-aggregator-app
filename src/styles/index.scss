@@ -35,6 +35,18 @@ body{
     &:hover{
         margin:1 px;
     }
+}
+
+.card-containter{
+    display: grid;
+    // grid-template-columns:none;
+    background:#414A4C;
+    border-radius: 10px;
+    width: 300px;
+     height: 400px;
+    &:hover{
+    background: black;
+    }
 
 }
 .news-containter{
