@@ -44,6 +44,11 @@ body {
           box-sizing: border-box;
 }
 
+.news-containter .article:hover {
+  margin: 25px;
+  border: 3px solid blueviolet;
+}
+
 .news-containter .article-img {
   height: 150px;
 }
