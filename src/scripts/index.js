@@ -16,9 +16,9 @@ let prepareHTMLfromData = function(DataArr){
     for(let i=0;i<DataArr.length;i++)
     {
         // console.log(DataArr[i]);
-        let htmlstring = `  <li class="article card card body">
-                            <img class="article-img " src="${DataArr[i]["urlToImage"]}">     
-                            <h2 class="article.title" style= "font">${DataArr[i]["title"]}</h2>
+        let htmlstring = `  <li class="article card card-body">
+                            <img class="article-img" src="${DataArr[i]["urlToImage"]}">     
+                            <h2 class="article-title" style= "font">${DataArr[i]["title"]}</h2>
                             <p class="article-description">${DataArr[i]["description"]}</p>
                             <span class="article-author" id="author">${DataArr[i]["author"]}</span>
                             <a href="" class="article-link">${DataArr[i]["url"]}</a>
