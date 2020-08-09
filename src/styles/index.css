@@ -50,11 +50,6 @@ body {
   list-style-type: none;
 }
 
-.news-containter #news-articles:hover {
-  margin: 25px;
-  border: 3px solid white;
-}
-
 .news-containter .article .art_body {
   background-color: #393939;
   height: 500px;
@@ -62,8 +57,6 @@ body {
   overflow: hidden;
   margin-top: 10px;
   margin-bottom: 10px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 }
 
 .news-containter .article .art_body:hover {
@@ -73,6 +66,7 @@ body {
 
 .news-containter .article-img {
   height: 150px;
+  width: auto;
 }
 
 .news-containter .article-title {
@@ -80,10 +74,13 @@ body {
 }
 
 .news-containter .article-description {
-  font-size: 14px;
+  font-size: 12px;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
 }
 
 .news-containter .article-author {
-  font-size: 6px;
+  font-size: 12px;
+  color: #42ade8;
 }
 /*# sourceMappingURL=index.css.map */

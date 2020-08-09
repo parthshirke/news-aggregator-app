@@ -16,15 +16,15 @@ let prepareHTMLfromData = function(DataArr){
     for(let i=0;i<DataArr.length;i++)
     {
         // console.log(DataArr[i]);
-        let htmlstring = `  <li class="article">
+        let htmlstring =    `<li class="article">
                             <div class="art_body card card-body">
                             <img class="article-img" src="${DataArr[i]["urlToImage"]}">     
-                            <h2 class="article-title" style= "font">${DataArr[i]["title"]}</h2>
+                            <h2 class="article-title" style= "font-size:15px; color: white;">${DataArr[i]["title"]}</h2>
                             <p class="article-description">${DataArr[i]["description"]}</p>
                             <span class="article-author" id="author">${DataArr[i]["author"]}</span>
-                            <a href="" class="article-link">${DataArr[i]["url"]}</a>
+                            <a href="${DataArr[i]["url"]}" class="article-link">${DataArr[i]["url"]}</a>
                             </div>
-                            </li> `;
+                            </li>`;
         
         finalHTMLstring = finalHTMLstring + htmlstring ;
         // console.log(finalHTMLstring);

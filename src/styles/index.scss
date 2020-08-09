@@ -39,7 +39,6 @@ body{
 
 .card-containter{
     display: grid;
-    // grid-template-columns:none;
     background:#414A4C;
     border-radius: 10px;
     width: 300px;
@@ -50,20 +49,11 @@ body{
 
 }
 .news-containter{
-    // border: solid blueviolet;
-    // &:hover{
-    //     margin:25px;
-    //     border: 3px solid white;
-    // }
+    
 
     #news-articles
     {
-        list-style-type:none;
-        &:hover{
-            margin:25px;
-            border: 3px solid white;
-        }
-       
+        list-style-type:none;   
     }
 
     .article
@@ -75,7 +65,7 @@ body{
         overflow: hidden;
         margin-top: 10px;
         margin-bottom: 10px;
-        box-sizing: border-box;
+        
         &:hover{
             margin:25px;
             border: 3px solid blueviolet;
@@ -88,6 +78,7 @@ body{
     .article-img
     {
         height: 150px;
+        width: auto;
     }
     .article-title
     {
@@ -95,12 +86,16 @@ body{
     }
     .article-description
     {
-        font-size: 14px;
+        font-size: 12px;
+        font-family: "Times New Roman", Times, serif;
+        color: white;
     }
     .article-author
     {
-        font-size: 6px;
+        font-size: 12px;
+        color: #42ade8;
     }
+    
 }
 
 
