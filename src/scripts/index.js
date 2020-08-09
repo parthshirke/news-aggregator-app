@@ -15,6 +15,9 @@ let prepareHTMLfromData = function(DataArr){
     else{
     for(let i=0;i<DataArr.length;i++)
     {
+        if(DataArr[i]["author"] ==null){
+            DataArr[i]["author"] = 'author: ';
+        } 
         // console.log(DataArr[i]);
         let htmlstring =    `<li class="article">
                             <div class="art_body card card-body">
