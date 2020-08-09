@@ -22,9 +22,7 @@ body{
 
 .search-container{
     text-align: center;
-    &:hover{
-        margin:0 px;
-    }
+    
         #search{
             border: none;
             background-color:$primary-color;
@@ -34,12 +32,8 @@ body{
         }
 }
 
-.card{
-    &:hover{
-        margin:0 px;
-    }
 
-}
+
 .card-body{
     &:hover{
         margin:0 px;
@@ -59,14 +53,9 @@ body{
 }
 .news-containter{
     
-    &:hover{
-        margin:0 px;
-    }
     #news-articles
     {
-        &:hover{
-            margin:0 px;
-        }
+        
         list-style-type:none;   
     }
 
@@ -93,33 +82,22 @@ body{
     {
         height: 150px;
         width: auto;
-        &:hover{
-            margin:0 px;
-        }
     }
     .article-title
     {
         font-size: 2 px;
-        &:hover{
-            margin:0 px;
-        }
     }
     .article-description
     {
         font-size: 12px;
         font-family: "Times New Roman", Times, serif;
         color: white;
-        &:hover{
-            margin:0 px;
-        }
     }
     .article-author
     {
         font-size: 12px;
         color: #42ade8;
-        &:hover{
-            margin:0 px;
-        }
+        text-align: right;
     }
     
 }

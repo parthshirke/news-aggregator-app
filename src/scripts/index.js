@@ -8,7 +8,7 @@ let prepareHTMLfromData = function(DataArr){
     let finalHTMLstring= '';
     if(DataArr.length == 0)
     {
-        let finalHTMLstring= `<h1 style="color : white;text-align:center;">No Articles Found</h1>`;
+        let finalHTMLstring= `<h1 style="color : white;text-align:center;">No article was found based on the search.</h1>`;
         document.getElementById('news-articles').innerHTML=finalHTMLstring;
     }
     //console.log(typeof(DataArr));
@@ -21,7 +21,7 @@ let prepareHTMLfromData = function(DataArr){
                             <img class="article-img" src="${DataArr[i]["urlToImage"]}">     
                             <h2 class="article-title" style= "font-size:15px; color: white;">${DataArr[i]["title"]}</h2>
                             <p class="article-description">${DataArr[i]["description"]}</p>
-                            <span class="article-author" id="author">${DataArr[i]["author"]}</span>
+                            <span class="article-author">-${DataArr[i]["author"]}</span>
                             <a href="${DataArr[i]["url"]}" class="article-link">${DataArr[i]["url"]}</a>
                             </div>
                             </li>`;
