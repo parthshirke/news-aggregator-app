@@ -33,6 +33,10 @@ body {
   border-bottom: 1px solid white;
 }
 
+.card:hover {
+  margin: 0 px;
+}
+
 .card-body:hover {
   margin: 0 px;
 }
